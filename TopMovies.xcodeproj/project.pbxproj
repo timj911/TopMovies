@@ -12,6 +12,8 @@
 		0F3773232175D23200DF2807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3773212175D23200DF2807 /* Main.storyboard */; };
 		0F3773252175D23300DF2807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3773242175D23300DF2807 /* Assets.xcassets */; };
 		0F3773282175D23300DF2807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3773262175D23300DF2807 /* LaunchScreen.storyboard */; };
+		0F3773302175D94900DF2807 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37732F2175D94900DF2807 /* ViewModel.swift */; };
+		0F3773322175E23800DF2807 /* MoviesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3773312175E23800DF2807 /* MoviesClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0F3773242175D23300DF2807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F3773272175D23300DF2807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F3773292175D23300DF2807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F37732F2175D94900DF2807 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0F3773312175E23800DF2807 /* MoviesClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				0F37731D2175D23200DF2807 /* AppDelegate.swift */,
 				0F37731F2175D23200DF2807 /* ViewController.swift */,
+				0F3773312175E23800DF2807 /* MoviesClient.swift */,
 				0F3773212175D23200DF2807 /* Main.storyboard */,
+				0F37732F2175D94900DF2807 /* ViewModel.swift */,
 				0F3773242175D23300DF2807 /* Assets.xcassets */,
 				0F3773262175D23300DF2807 /* LaunchScreen.storyboard */,
 				0F3773292175D23300DF2807 /* Info.plist */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F3773202175D23200DF2807 /* ViewController.swift in Sources */,
+				0F3773302175D94900DF2807 /* ViewModel.swift in Sources */,
 				0F37731E2175D23200DF2807 /* AppDelegate.swift in Sources */,
+				0F3773322175E23800DF2807 /* MoviesClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
